@@ -1,0 +1,33 @@
+@media only screen and (min-width: 480px) {
+
+    .logo {
+        width: 190px;
+        height: 35px;
+    }
+    
+    .menu-btn i {
+        margin-top: 17px;
+    }
+
+    .hero-cta-btn {
+        padding: 18px 28px;
+    }
+    
+    .partners-img div {
+        height: 45px;
+    }
+    
+    .partners-img div:nth-child(2) {
+        margin: 35px 0;
+    }
+
+    .achieve-text h2 {
+        font-size: 28px;
+        text-align: left;
+        margin: 40px 0 20px 0;
+    }
+
+    .footer-img {
+        height: 60px;
+    }
+}

@@ -1,0 +1,51 @@
+@media only screen and (min-width: 1440px) {
+
+    header {
+        padding: 30px 140px;
+    }
+
+    .hero-section p {
+        padding: 0 350px;
+        word-wrap: break-word;
+    }
+
+    .partners-wrapper {
+        padding: 0px 140px;
+    }
+
+    .achieve-wrapper {
+        padding: 80px 140px;
+    }
+
+    .services-wrapper {
+        padding: 90px 140px;
+    }
+
+    .loader-section {
+        padding: 100px 140px;
+    }
+
+    .activity-section {
+        padding: 0 200px 100px 200px;
+    }
+
+    .faq-section {
+        margin: 30px 140px;
+    }
+
+    .reserve-section {
+        padding: 80px 140px;
+    }
+
+    .blog-section {
+        margin: 80px 140px;
+    }
+
+    .news-section {
+        padding: 50px 140px;
+    }
+
+    footer {
+        padding: 60px 140px;
+    }
+}

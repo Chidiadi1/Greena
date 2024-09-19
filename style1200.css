@@ -1,0 +1,148 @@
+@media only screen and (min-width: 1200px) {
+
+    .logo {
+        width: 260px;
+    }
+
+    .partners-text h2 {
+        font-size: 28px;
+    }
+
+    .achieve-text h2 {
+        font-size: 45px;
+    }
+    
+    .services-wrapper {
+        padding: 100px 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .services-text {
+        text-align: left;
+        margin-right: 50px;
+    }
+    
+    .services-text h2 {
+        font-size: 45px;
+    }
+    
+    .services-text p {
+        font-size: 16px;
+        line-height: 24px;
+        color: rgb(205, 205, 205);
+        margin: 25px 0;
+    }
+    
+    .services-cta-btn a {
+        padding: 25px 65px;
+    }
+    
+    .services-provision {
+        margin: 30px 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .services-provision div{
+        padding: 40px 10px;
+    }
+    
+    .services-provision div:nth-child(2) {
+        margin: 0 25px;
+    }
+    
+    .services-provision div h4{
+        font-size: 22px;
+    }
+
+    .loader-image {
+        width: 100%;
+    }
+
+    .loader-text {
+        width: auto;
+        text-align: left;
+    }
+
+    .loader-text h2 {
+        font-size: 45px;
+    }
+
+    .loader-section-btn a {
+        padding: 25px 65px;
+    }
+
+    .activity-section {
+        padding: 0 100px 100px 100px;
+    }
+
+    .activity-section h2 {
+        font-size: 45px;
+    }
+
+    .activity-grid-item {
+        padding: 10px 15px 30px 45px;
+    }
+    
+    .activity-grid-item div span {
+        font-size: 90px;
+    }
+    
+    .activity-grid-item h5 {
+        font-size: 23px;
+    }
+
+    .faq-section {
+        margin: 30px 50px;
+        padding: 0 60px;
+    }
+
+    .faq-section h2 {
+        font-size: 45px;
+    }
+
+    .reserve-text h2{
+        font-size: 45px;
+    }
+
+    .reserve-section {
+        padding: 80px 40px;
+    }
+
+    .reserve-form {
+        margin: 0 90px 0 0;
+        padding: 50px;
+    }
+
+    .blog-section {
+        margin: 80px 50px;
+        padding: 0 60px; 
+    }
+
+    .blog-section h2 {
+        font-size: 45px;
+    }
+
+    .blog-item-box {
+        gap: 40px;
+    }
+
+    .news-section {
+        padding: 50px 40px;
+    }
+    
+    .news-text h2{
+        font-size: 45px;
+    }
+    
+    .news-section form button {
+        width: 70%;
+        margin-left: 30px;
+    }
+
+    footer {
+        padding: 60px 40px;
+    }
+}

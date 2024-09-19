@@ -1,0 +1,142 @@
+@media only screen and (min-width: 992px) {
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 30px;
+    }
+
+    .logo {
+        width: 240px;
+    }
+
+    .menu-btn {
+        display: none;
+    }
+
+    .search-icon {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .nav-visible {
+        display: block;
+    }
+
+    header nav {
+        position: relative;
+        width: 100%;
+        top: 0px;
+        left: 0;
+        display: block;
+        margin-left: 140px;
+    }
+
+    header ul {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    header nav ul li {
+        width: auto;
+        position: relative;
+        float: left;
+        white-space: nowrap;
+        padding: 5px 0px;
+        background-color: transparent;
+    }
+    
+    header ul li a {
+        color: white;
+        font-size: 16px;
+        padding: 0;
+        display: flex;
+        justify-content: center;    
+    }
+
+    header ul li i {
+        padding-left: 10px;
+        font-size: 14px;
+    }
+    
+    header nav ul li ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: auto;
+        display: none;
+    }
+    
+    header nav ul li:hover ul, header nav ul li:focus-within ul {
+        display: block;
+    }
+    
+    header nav ul li ul li {
+        width: auto;
+        padding: 20px 30px;
+    }
+    
+    header nav ul li ul li a {
+        color: white;
+        font-size: 14px;
+    }
+
+    .hero-section {
+        padding-top: 140px;
+    }
+
+    .hero-section h1 {
+        font-size: 70px;
+        line-height: 85px;
+        padding: 0 150px;
+    }
+
+    .hero-section p {
+        padding: 0 150px;
+        word-wrap: break-word;
+    }
+
+    .hero-cta-btn {
+        padding: 25px 65px;
+    }
+
+    .partners-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 130px;
+        padding: 0px 60px;
+    }
+
+    .loader-image {
+        width: 80%;
+    }
+
+    .loader-text {
+        width: 90%;
+        text-align: left;
+    }
+
+    .blog-item-box {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+
+    .footer-section {
+        gap: 75px;
+    }
+
+    .footer-img {
+        height: 60px;
+        margin: 0;
+    }
+    
+}
