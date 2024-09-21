@@ -1092,3 +1092,7 @@ footer hr {
     line-height: 24px;
     color: rgb(205, 205, 205);
 }
+
+button, a {
+    -webkit-tap-highlight-color: transparent;
+}
